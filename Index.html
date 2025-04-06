@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="resources/stylesheet.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+
+    <title>Beginning Javascript Assignment</title>
+</head>
+<body>
+  <div id="main-wrapper">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">WilliamJoeWare.music</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Discography.html">Discography</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://open.spotify.com/track/4BGxF3vzN2eQ3EMz4ApThm?si=c219d97c0c4547d2"><img src="resources/Images/MemoryOcean.png" class="d-block w-100" alt="...">
+                </div></a>
+              <div class="carousel-item">
+                <a href="https://open.spotify.com/track/1g7W4CXvT7flmvan66KK8x?si=d0ae8ce868564969"><img src="resources/Images/MagnoliaDreamscape.png" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <img src="resources/Images/Vitality.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <section id="introduction">
+            <div class="container-fluid" id="introduction-container">
+              <h1>William Ware's Musical Universe</h1>
+              <p>Dearest Traveller,</p>
+              <br>
+              <p>Thank you for taking the time to find my little corner of the internet.
+                My name is William (naturally) and I've been writing music since I was in middle school.
+                As I got older and into high school, I began publishing my music independently.
+                <br>
+                This website serves as a vessel for all of my published works spanning each genre that I have taken part in and under each alias, present and future therein.
+                I've touched on piano solo, Classical, Lo-Fi, and Ambient genres in my time. 
+                <br><br>
+                I hope that you find something in my discography that touches or uplifts you.
+                <br><br>
+                But if it doesn't.... Why exactly are you here?
+              </p>
+
+            </div>
+         </section>
+         <section id="Social-links">
+          <div class="container-fluid">
+            <a href="https://open.spotify.com/artist/4sdgGI2VBvg1l0APfrbhHm?si=MNDYuJvuRI2IwhSI6zYUHA"><img src="resources/Images/Spotify_Primary_Logo_RGB_White.png" class="music-link"></a>
+          </div>
+         </section>
+    </main>
+  </div>
+<footer>
+  <div class="container-fluid ">
+    <!--Image that secretly triggers a modal if clicked-->
+    <a href="#HiddenModal" role="button" data-toggle="modal"><img src="resources/Images/ButterflyIcon.png" alt="Hidden Modal Activation" id="ModalTrigger"></a>
+  </div>
+  <div class="container-fluid" id="HiddenModal">
+    <div id="ModalContent" class="Modal">
+      <span class="close">X</span>
+      <h2 id="gotcha">Well, Well, Well!</h2>
+      <p>Snooping for secrets are we? Well I won't have it.<br><br>
+      Ah yes, you believed that this would be the same trick from my original site didn't you? <br><br>
+      Well I hate to break it to you, but this site is being made by hand this time without all my fancy tools like 
+      Elementor or Wordpress. I have yet to develop the skills necessary pull the level of shennanigans
+      and tomfoolery that I used to get up to in a window like this.<br><br>
+      Your only recourse is to close this little widget. <br><br> BEGONE!!!</p>
+    </div>
+  </div>
+  
+</footer>
+<script src="resources/scripts.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
